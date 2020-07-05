@@ -1,0 +1,116 @@
+@media only screen and (max-width: 770px){
+	#header{
+		height: 100vh;
+		background-image: none;
+	}
+	#header .container{
+		width: 90%;
+	}
+	form{
+		width: 90%;
+	}
+	html{
+		scroll-behavior: smooth;
+	}
+	.container{
+		margin-right: 50px;
+		margin-left: 50px;
+	}
+	.logo{
+		margin-top: 27px;
+		width: 70px;
+	}	
+	.header-text{
+		margin-top: 100px;
+		margin-right:25px;
+	}
+	h1{
+		width: 100%
+		font-size: 25px;
+	}
+	#menuBtn{
+		width: 40px;
+		right: 50px;
+	}
+	.common-btn {
+		padding: 10px 16px;
+	}
+	.about-left-col, .about-right-col {
+		flex-basis: 100%;
+	}
+	.about-text {
+		margin:50px 50px 0;
+		display: inline-block;
+	}
+	.about-text h2 {
+		font-size: 18px;
+	}
+	.col-left{
+		flex-basis: 100%;
+		padding-bottom: 10px;
+	}
+	.col-right{
+		flex-basis: 100%;
+		text-align: center;
+	}
+	.wrapper{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.block-container p{
+		padding: 8px 0;
+	}
+
+    .block-container img {
+    	width: 80px;
+	}
+	.feature-btn{
+		margin-top: 40px;	
+		text-align: center;
+	}
+	#courses{
+    	padding: 50px 0;
+	}
+	.courses-left-col, .sign-up-left-col {
+    	flex-basis: 100%;
+	}
+	.courses-right-col{
+		flex-basis: 100%;
+	}
+	.inp-sign{
+		width: 105%;
+		display: block;
+		padding: 10px 16px;
+		border:1px solid #f67c97;
+	}
+
+	.sing-up-right-col{
+		width: 100%;
+	}
+	.sing-up-btn-container{
+		flex-direction: column;
+	}
+	.btn-signSecClass{
+		margin-right: 0;
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	h2{
+		font-size: 25px;
+	}
+	.about-us-second-paragraph{
+		font-size: 12px;	
+	}
+	#feature {
+    	padding-top: 25px;
+    	padding-bottom: 25px;
+	}
+	#footer .footer-left-row{
+		display: none;
+	}
+	#footer .footer-right-col{
+		display: flex;
+		flex-direction: column;
+	}
+}

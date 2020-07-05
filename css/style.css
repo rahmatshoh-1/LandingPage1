@@ -1,0 +1,258 @@
+html{
+	scroll-behavior:smooth;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+		/*HEADER START*/
+#header{
+	height: 100vh;
+	background-image:url(../img/background.png);
+	background-size: cover;
+}
+.container{
+	margin-right: 100px;
+	margin-left: 100px;
+}
+.logo{
+	margin-top: 10px;
+	width: 100px;
+}
+.header-text{
+	max-width: 350px;
+	margin-top:120px;
+}
+h1{
+	font-size: 35px;
+}
+.rectengle{
+	width: 12px;
+	height: 12px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: #FA87BA;
+	display: inline-block;
+}
+.common-btn{
+	padding: 15px 30px;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background-color: transparent;
+	border:2px solid #FA87BA;
+	display: block;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+.header-paragraph{
+	padding-bottom: 15px;
+	font-size: 16px;
+}
+
+
+.line-1{
+	width: 15px;
+	height: 1px;
+	background:#f67c97;
+	display: inline-block; 
+}
+
+.line-2{
+	width: 80px;
+	height: 1px;
+	background:#f67c97;
+	display: inline-block; 
+}
+
+.line-3{
+	width: 60px;
+	height: 1px;
+	background:#f67c97;
+	display: inline-block; 
+}
+.line {
+	line-height: 8px;
+}
+
+#navBar{
+	height: 100vh;
+	position: fixed;
+	width: 250px;
+	background-color: #f67c97;
+	top: 0;
+	right: -250px;
+	transition: 0.5s;
+}
+nav ul li {
+	list-style: none;
+	margin: 50px 20px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #000;
+}
+
+#menuBtn{
+	width: 50px;
+	position: fixed;
+	top: 30px;
+	right: 100px;
+	z-index: 2;
+	cursor: pointer;
+}
+	/*HEADER END*/
+	/*SOSIALS START*/
+.sosials{
+	width: 30px;
+	left: 0;
+	top: 40vh;
+	z-index: 2;
+	position: fixed;
+}
+.sosials img{
+	width: 30px;
+}
+/*SOSIALS END*/
+/*ABOUT && About-us Start*/
+#about, #about-us{
+	padding: 50px 0;
+	display: flex;/* Просто надо  указать */
+	align-items: center; 	/*	элементы по центр*/
+	flex-wrap:wrap; /*		*/
+}
+h2{
+	font-size: 40px;
+}
+.about-us-second-paragraph{
+	font-weight: bold;
+	text-align: right;
+	font-family: Arial;
+	padding-top: 15px;
+	max-width: 460px;
+	font-size: 24px;
+}
+.col-left{
+	flex-basis: 50%; 
+}
+.col-left img {
+	width: 100%;
+}
+
+.col-right{
+	flex-basis: 50%;
+	text-align: right;
+}
+/*ABOuT && ABOUT-US END*/
+/*feature start*/
+
+#feature{
+    padding-top: 50px;
+    padding-bottom: 50px;	
+}
+.wrapper{
+	width: 80%;
+    margin: 0 auto;
+    display: flex;
+    text-align:center;
+}
+.block-container p{
+	padding: 15px 0;
+}
+
+.block-container img {
+    width: 100px;
+}
+
+.feature-btn{
+	text-align: right;
+	margin-top: 80px;
+	display: flex;
+	justify-content: center;	
+}
+
+/*Feature end*/
+/*Courses start*/
+#courses{
+    padding: 100px 0;
+}
+.courses-text p{
+	padding:15px 0;
+	max-width: 320px;
+}
+
+.courses-row, .sing-up-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.courses-left-col, .sign-up-left-col {
+    flex-basis: 50%;
+}
+.courses-right-col{
+	flex-basis: 50%;
+}
+
+.courses-right-col img{
+	width: 100%;
+}
+/*Courses end*/
+/*sign-up  start*/	
+#sign-up{
+	height: 70vh;
+}
+.inp-sign{
+	width: 380px;
+	padding: 10px;
+	margin:5px 0;
+	border:2px solid #f67c97;
+	display: inline-block;
+}
+.sing-up-right-col{
+	width: 50%;
+}
+.sing-up-right-col img {
+	width: 100%;
+}
+.sing-up-btn-container{
+	display: flex;
+}
+.btn-signSecClass{
+	margin-right: 5px;
+	width: 200px;
+}	
+/*sign-up end*/
+							/*footer start*/
+hr{
+	border:none;
+	border-top: 2px solid #ff858a;
+}
+
+.footer-left-row{
+	width: 800px;
+	float: left;
+	margin-top:30px;
+	display: flex;
+	justify-content: space-between;
+}
+.footer-right-col{
+	float: right;
+	padding-bottom:10px;
+}
+
+.block-container h4{
+	color: #ff858a;
+}
+
+#btn-up {
+	position: fixed;
+	right: 5px;
+	margin-right: 5px;
+	bottom: 100px;
+	padding: 5px 10px;
+	background-color: #ff858a;
+	border-radius: 3px;
+	transform: rotate(-90deg);
+}
